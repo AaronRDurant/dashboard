@@ -12,7 +12,7 @@ import { GiLouvrePyramid } from 'react-icons/gi';
 import { GrLocation } from 'react-icons/gr';
 import avatar from './avatar.jpg';
 import avatar2 from './avatar2.jpg';
-import avatar3 from './avatar3.png';
+import avatar3 from './avatar3.jpg';
 import avatar4 from './avatar4.jpg';
 import product1 from './product1.jpg';
 import product2 from './product2.jpg';
@@ -525,24 +525,24 @@ export const links = [
 export const cartData = [
   {
     image:
-      product5,
-    name: 'butterscotch ice-cream',
-    category: 'Milk product',
-    price: '$250',
+      product7,
+    name: 'Butterscotch Ice Cream',
+    category: 'Dairy',
+    price: '$4',
   },
   {
     image:
       product6,
-    name: 'Supreme fresh tomato',
-    category: 'Vegetable Item',
-    price: '$450',
+    name: 'Fresh Tomato',
+    category: 'Vegetable',
+    price: '$2',
   },
   {
     image:
-      product7,
-    name: 'Red color candy',
-    category: 'Food Item',
-    price: '$190',
+      product5,
+    name: 'Red Candy',
+    category: 'Treat',
+    price: '$3',
   },
 ];
 
@@ -550,29 +550,29 @@ export const chatData = [
   {
     image:
       avatar2,
-    message: 'Roman Joined the Team!',
+    message: 'Kenny joined the team!',
     desc: 'Congratulate him',
-    time: '9:08 AM',
+    time: '9:11 AM',
   },
   {
     image:
       avatar3,
     message: 'New message received',
-    desc: 'Salma sent you new message',
-    time: '11:56 AM',
+    desc: 'Malcolm sent you new message',
+    time: '8:56 AM',
   },
   {
     image:
       avatar4,
-    message: 'New Payment received',
+    message: 'New payment collected',
     desc: 'Check your earnings',
     time: '4:39 AM',
   },
   {
     image:
       avatar,
-    message: 'Jolly completed tasks',
-    desc: 'Assign her new tasks',
+    message: 'New sign in',
+    desc: 'You signed in on your device',
     time: '1:12 AM',
   },
 ];
@@ -813,22 +813,22 @@ export const themeColors = [
 export const userProfileData = [
   {
     icon: <BsCurrencyDollar />,
-    title: 'My Profile',
-    desc: 'Account Settings',
+    title: 'Profile',
+    desc: 'Adjust your settings',
     iconColor: '#03C9D7',
     iconBg: '#E5FAFB',
   },
   {
     icon: <BsShield />,
-    title: 'My Inbox',
-    desc: 'Messages & Emails',
+    title: 'Inbox',
+    desc: 'View your messages',
     iconColor: 'rgb(0, 194, 146)',
     iconBg: 'rgb(235, 250, 242)',
   },
   {
     icon: <FiCreditCard />,
-    title: 'My Tasks',
-    desc: 'To-do and Daily Tasks',
+    title: 'Tasks',
+    desc: 'Stay on track',
     iconColor: 'rgb(255, 244, 229)',
     iconBg: 'rgb(254, 201, 15)',
   },
