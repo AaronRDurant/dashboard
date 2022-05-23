@@ -42,7 +42,7 @@ const ColorMapping = () => {
         </ChartComponent>
       </div>
     </div>
-  );
-};
+  )
+}
 
-export default ColorMapping;
+export default ColorMapping
