@@ -1,4 +1,4 @@
-import React from 'react'
+import React from "react";
 
 const Button = ({ bgColor, color, size, text, borderRadius }) => {
   return (
@@ -9,7 +9,7 @@ const Button = ({ bgColor, color, size, text, borderRadius }) => {
     >
       {text}
     </button>
-  )
-}
+  );
+};
 
-export default Button
+export default Button;
